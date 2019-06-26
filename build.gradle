@@ -4,3 +4,17 @@
  * This is a general purpose Gradle build.
  * Learn how to create Gradle builds at https://guides.gradle.org/creating-new-gradle-builds/
  */
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+mainClassName = 'com.banksb95.fixfriend.FixFriendMain'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
